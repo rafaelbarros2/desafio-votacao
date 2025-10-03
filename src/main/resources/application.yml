@@ -45,6 +45,14 @@ management:
     health:
       show-details: always
 
+# SpringDoc OpenAPI
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    enabled: true
+
 # Logging
 logging:
   level:
